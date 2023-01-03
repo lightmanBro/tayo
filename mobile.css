@@ -1,3 +1,193 @@
-@media   {
+@media only screen and (max-width: 850px){
+  *{
+          margin: 0;
+          padding: 0;
+  }
+  
+  
+          nav{
+                    display: none;
+
+          }
+
+header{
+          margin: 0;
+          /* display: flex; */
+          /* width: 100%; */
+}
+main{
+          padding: 20px;
+}
+.cot{
+          /* display: flex; */
+          /* width: 100%; */
+}
+.verify{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+padding: 0;
+}
+form{
+          margin-left: 0;
+}
+.text-me h2{
+          /* border: 3px solid black; */
+          width: 100%;
+}
+.check{
+          margin-left: 5px;
+          display: flex;
+          /* border: 3px solid black; */
+          width: 80%;
+}
+.check input{
+          margin-right: 190px;
+}
+.btn{
+          text-align: center;
+          margin-bottom: 30px;
+          /* width: 30%; */
+}
+.btn-1{
+          font-size: large;
+          padding: 10px 20px;
+          width: 50%;
+}
+
+.icon{
+          transform: rotate(-180deg);
+          margin-left: -40px;
+
+}
+.note{
+          padding: 25px 15px;
+}
+.content{
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+}
+.content h4{
+    display: none;
+}
+.content p{
+          display: inline;
+          margin: 10px;
+          font-size: 40px;
+          font-weight: 700;
+}
+#sub{
+
+          margin-left: 50px;
+          margin-bottom: 20px;
+          margin-top: 20px;
+}
+#ssn{
+          margin-top: 10px;
+          font-size: large;
+
+}
+.icon{
+          /* border: 3px solid black; */
+          font-size: larger;
+          margin-left: -10px;
+}
+.contents {
+          padding: 20px;
+          width: 88%;
+          margin: 0;
+}
+.contents h2{
+          margin-top: 20px;
+          margin-bottom: 30px;
+}
+.contents input{
+          /* margin-top: 40px; */
+          margin-left: 30px;
+}
+#c-y{
+          margin-left: 35px;
+}
+#e-y1{
+          margin-left: 35px;
+}
+#city-1{
+          margin-left: 35px;
+}
+#states{
+          margin-left: 35px;
+}
+#state-list{
+          margin-left: 35px;
+          width: 30%;
+}
+
+.country{
+          margin-left: 160px;
+}
+#zipcode{
+          margin-left: 180px;
+          /* margin-top: -100px; */
+}
+#myfile{
+          margin-top: 10px;
+          font-size: large;
+          width: 70%;
+}
+#labels{
+          width: 100%;
+          /* border: 2px solid black; */
+          font-size: large;
+          margin-right: 0;
+          margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot-1, .foot-2{
+          padding: 10px;
+          margin: 10px 0 20px 0;
+          
+}
+.foot-1 ul{
+          /* border: 3px solid red; */
+          display: flex;
+          width: 100%;
+          /* flex-wrap: wrap; */
+          justify-content: space-between;
+          /* flex-direction: column; */
+}
+.foot-2 ul{
+          width: 90%;
+          display: flex;
+          flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
           
 }

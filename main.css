@@ -251,6 +251,9 @@ form input:focus::placeholder{
           font-size: 40px;
           font-weight: 700;
 }
+.content p{
+        display: none;
+}
 .content li{
           font-size: 30px;
           font-weight: 600;
@@ -284,6 +287,8 @@ footer{
           display: flex;
           justify-content: space-between;
           width: 65%;
+          /* flex-wrap: wrap; */
+          /* flex-direction: row; */
 }
 .foot-1 li{
           list-style: none;
@@ -345,7 +350,7 @@ margin-top: 50px;
 font-size: larger;
 outline: none;
 padding: 10px 0 0 0;
-margin-bottom: 50px;
+margin-bottom: 40px;
 }
 
 #sub:focus::placeholder{
@@ -358,7 +363,7 @@ h4{
         font-size: larger;
         font-weight: 400;
         line-height: 1.5px;
-        margin-bottom: 2px;
+        margin-bottom: 20px;
 }
 /* email section ends here */
 
