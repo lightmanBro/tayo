@@ -3,6 +3,7 @@
           padding: 0;
 }
 
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap');
 
 header{
         margin: 0;
@@ -12,8 +13,7 @@ header{
 .cot{
           background: #d71e28;
           border-bottom: 4px solid #ffcd41;
-          padding: 20px ;
-          height: px;
+          /* padding: 5px ; */
           display: flex;
           flex-direction: row;
           justify-content: space-between;
@@ -29,6 +29,7 @@ nav{
           width: 60%;
           justify-content: right;
           margin-left: 20px;
+          margin-right: 10px;
           
 
 }
@@ -51,21 +52,20 @@ nav{
           font-family: Arial, Helvetica, sans-serif;
 
 }
-.cot li a img{
-        
-}
+
 .search  input{
           padding: 20px 5px;
           border-radius: 20px;
-          font-size: medium;
+          font-size: 20px;
           width: 70%;
           background: white;
           /* margin-left: 20px; */
           float: left;
           border: transparent;
-          border: none;
+          /* border: none; */
           outline: none;
-          font-size: x-large;
+          /* font-size: x-large; */
+          font-weight: lighter;
 }
 .search button{
           padding:  5px;
@@ -90,20 +90,21 @@ nav{
 }
 .search i{
           /* border: 3px solid rgb(19, 4, 4); */
-          font-size: 30px;
+          font-size: 40px;
           float: right;
           margin-left: -100px;
           color: rgb(85, 62, 62);
-          
-
-
 }
 .logo h1{
+        /* border: 2px solid black; */
 font-size: 40px;
+font-family:  'Rubik', sans-serif;
 /* font-weight: 400; */
 text-transform: uppercase;
 color: white;
 line-height: 1.294;
+margin-top: 20px;
+margin-left: 20px;
 }
 main{
           padding: 50px 150px;
@@ -186,7 +187,7 @@ form{
           font-size: larger;
 } 
 .verify input:focus{
-          background: rgb(144, 154, 247);
+          background: rgb(205, 205, 207);
 }
 .btn{
           /* border: 3px solid black; */

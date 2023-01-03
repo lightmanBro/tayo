@@ -1,10 +1,10 @@
-const button = document.getElementById('btn')
+// const button = document.getElementById('btn')
 
-document.addEventListener('DOMContentLoaded', function(){
-          button.addEventListener('click', function(){
-                    window.alert('button clicked')
-          })
-})
+// document.addEventListener('DOMContentLoaded', function(){
+//           button.addEventListener('click', function(){
+//                     window.alert('button clicked')
+//           })
+// })
 
 
 function myFunc() {
