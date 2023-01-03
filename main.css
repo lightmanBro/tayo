@@ -3,7 +3,8 @@
           padding: 0;
 }
 
- @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap');
+ @import url(./Rubik-Italic-VariableFont_wght.ttf);
+ @import url(./Rubik-VariableFont_wght.ttf);
 
 header{
         margin: 0;
@@ -100,7 +101,7 @@ nav{
 .logo h1{
         /* border: 2px solid black; */
 font-size: 40px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family:  'Rubik', sans-serif;
 /* font-weight: 400; */
 text-transform: uppercase;
 color: white;
