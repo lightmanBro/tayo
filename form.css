@@ -1,0 +1,303 @@
+*{
+          margin: 0;
+          padding: 0;
+}
+
+
+header{
+          
+}
+
+.cot{
+          background: #d71e28;
+          border-bottom: 4px solid #ffcd41;
+          padding: 20px ;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          font-family: Arial, Helvetica, sans-serif;
+          align-items: center;
+}
+nav{
+          /* border: 3px solid white ; */
+          display: flex;
+          align-items: center;
+          width: 60%;
+          justify-content: right;
+          margin-left: 20px;
+          
+
+}
+.cot nav ul{
+          display: flex;
+          /* border: 3px solid black; */
+          width: 100%;
+          justify-content: space-between;
+          align-items: center;
+}
+.cot nav ul li{
+          list-style: none;
+          color: white;
+          font-size: x-large;
+
+}
+.cot li a{
+          text-decoration: none;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+
+}
+.search  input{
+          padding: 20px 5px;
+          border-radius: 20px;
+          font-size: medium;
+          width: 70%;
+          background: white;
+          /* margin-left: 20px; */
+          float: left;
+          border: transparent;
+          border: none;
+          outline: none;
+          font-size: 21px;
+}
+.search button{
+          padding:  5px;
+          /* border-radius: 20px; */
+          width: 30%;
+          float: left;
+          border: transparent;
+          background: white;
+          cursor: pointer;
+          /* border: 3px solid black; */
+
+}
+.search{
+          /* border: 3px solid green; */
+          width: 17%;
+          text-align: center;
+          padding: 0;
+          background: white;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+}
+.search i{
+          /* border: 3px solid rgb(19, 4, 4); */
+          font-size: 35px;
+          float: right;
+          margin-left: -100px;
+          color: rgb(85, 62, 62);
+          
+
+
+}
+.logo h1{
+font-size: 40px;
+/* font-weight: 400; */
+text-transform: uppercase;
+color: white;
+line-height: 1.294;
+}
+main{
+          padding: 50px 150px;
+          background: url(./tree-gdf8a951f3_1920\ \(1\).jpg);
+          /* height: 400px; */
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          
+}
+.verify{
+          margin-top: 20px;
+          background: white;
+          padding: 20px  100px ;
+          border-radius: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+}
+.verify h2{
+          color: #d71e28;
+          text-align: center;
+          font-size: 40px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 40px;
+          font-weight: 400;
+}
+.verify p{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: larger;
+          font-weight: 400;
+          text-align: center;
+          margin-top: 20px;
+}
+form{
+          /* border: 3px solid black; */
+          text-align: center;
+          margin-top: 50px;
+}
+
+
+#ssn{
+          padding: 10px;
+          /* text-align: center; */
+          width: 50%;
+          margin-top: 30px;
+          font-size: x-large;
+          font-family: Arial, Helvetica, sans-serif;
+          outline: none;
+          border: none;
+          border-bottom: 1px solid black;
+
+}
+#ssn:focus{
+          background: rgb(213, 203, 223);
+          content: "";
+}
+#ssn:focus::placeholder{
+          transform: translateY(-10px);
+          font-size: 16px;
+          font-style: italic;
+}
+.icon{
+          /* border: 3px solid black; */
+          font-size: larger;
+          margin-left: -30px;
+}
+#dob{
+          padding: 10px;
+          /* text-align: center; */
+          width: 50%;
+          margin-top: 30px;
+          font-size: x-large;
+          font-family: Arial, Helvetica, sans-serif;
+          outline: none;
+          border: none;
+          border-bottom: 1px solid black;
+          appearance: auto;        
+}
+#dob:focus{
+          background: rgb(213, 203, 223);
+          content: "";
+}
+#dob:focus::placeholder{
+          transform: translateY(-10px);
+          font-size: 16px;
+          font-style: italic;
+}
+.btn{
+          /* border: 3px solid black; */
+          margin-top: 50px;
+          text-align: center;
+          margin-bottom: 30px;
+}
+.btn-1{
+          padding: 10px 25px;
+          border-radius: 40px;
+          width: 20%;
+          background: #d71e28;
+          color: white;
+          font-size: x-large;
+          border: transparent;
+          cursor: pointer;
+}
+.btn-1:hover{
+          color: white;
+          background: #a10f16;
+          text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+          padding: 20px;
+          background: #f4f0ed;
+}
+.foot-1, .foot-2{
+          padding: 20px;
+          margin: 10px 0 20px 0;
+          
+}
+.foot-1 ul{
+          /* border: 3px solid red; */
+          display: flex;
+          width: 80%;
+          flex-wrap: wrap;
+          justify-content: space-between;
+}
+.foot-2 ul{
+          /* border: 3px solid blue; */
+          display: flex;
+          justify-content: space-between;
+          width: 65%;
+}
+.foot-1 li{
+          list-style: none;
+          border-right: 1px solid black;
+          padding: 2px 20px 2px 0;
+}
+.foot-2 ul :last-child{
+          border-right: none;
+}
+.foot-2 li a{
+          font-size: 20px;
+          text-decoration: none;
+          color: #000000;
+
+}
+.foot-2 li a:hover{
+          text-decoration: underline;
+}
+.foot-1 li a:hover{
+          text-decoration: underline;
+
+}
+.foot-1 ul li a{
+          font-size: 20px;
+          text-decoration: none;
+          color: #000000;
+}
+.foot-2 li{
+          border-right: 1px solid black;
+          list-style: none;
+          padding: 2px 20px 2px 0;
+
+}
+footer p{
+          padding: 20px;
+          font-size: 20px;
+}
