@@ -200,7 +200,7 @@ padding: 0;
 padding-bottom: 20px;
 }
 .check{
-        border: 3px solid red;
+        /* border: 3px solid red; */
         width: 100%;
 }
 .check input{
