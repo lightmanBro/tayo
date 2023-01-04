@@ -64,7 +64,7 @@ nav{
         margin-right: 5px;
      }
 .menu{
-        height: 4px;
+        height: 3px;
         background: white;
         width: 100%;
         position: relative;
@@ -72,16 +72,16 @@ nav{
      }
      .menu::before{
         content: "";
-        height: 4px;
-        background: white;
+        height: 3px;
+        background: rgba(248, 247, 247, 0.6);
         width: 100%;
         position: absolute;
         transform: translateY(8px);
      }
      .menu::after{
         content: "";
-        height: 4px;
-        background: white;
+        height: 3px;
+        background: rgba(248, 247, 247, 0.6);
         width: 100%;
         position: absolute;
         transform: translateY(-8px);
@@ -288,7 +288,7 @@ form input:focus::placeholder{
           padding: 10px;
           border: none;
           outline: none;
-          border-bottom: 2px solid black;
+          border-bottom: 1px solid  rgb(124, 112, 112);
           background: transparent;
           width: 80%;
           font-size: larger;
@@ -359,6 +359,16 @@ form input:focus::placeholder{
           list-style: square;
           margin-left: 20px;
 }
+.content2{
+        display: none;
+}
+.content3{
+        display: none;
+}
+.see{
+        display: none;
+}
+
 .note p{
           margin-top: 60px;
           font-size: x-large;

@@ -16,7 +16,10 @@ header{
           /* width: 100%; */
 }
 main{
-          padding: 20px;
+          padding: 0px;
+          background: white;
+          overflow: hidden;
+
 }
 .mobile{
         display: flex;
@@ -24,7 +27,7 @@ main{
 .cot{
           /* display: flex; */
           /* width: 100%; */
-          padding: 10px 0;
+          padding: 5px 0;
 }
 .logo h1{
         margin-top: 10px;
@@ -32,6 +35,7 @@ main{
         font-size: x-large;
         text-align: center;
         margin-left: 100px;
+        /* border: 3px solid black; */
 }
 .search {
         width: 100%;
@@ -45,42 +49,79 @@ flex-direction: column;
 flex-wrap: wrap;
 justify-content: center;
 width: 100%;
-padding: 0;
+/* padding: 10px; */
+margin-top: 0;
+border-radius: 0;
+}
+.verify h2{
+        /* border: 3px solid black; */
+        margin-top: 0;
+        margin-bottom: 10px;
+        /* width: 100%; */
+}
+.verify input{
+        margin-left: 10px;
+        width: 90%;
+        margin-bottom: 20px;
+        box-shadow: none;
 }
 form{
           margin-left: 0;
 }
 
-.text-me h2{
+.text-me{
           /* border: 3px solid black; */
-          width: 100%;
+          /* width: 100%; */
+          padding: 10px;
+}
+.text-me p{
+        font-size: 25px;
+        width: 100%;
+        margin-bottom: 0px;
 }
 .check{
           margin-left: 5px;
           display: flex;
           /* border: 3px solid black; */
-          width: 80%;
+          width: 20%;
+          justify-content: left;
+          margin-bottom: 0;
 }
 .check input{
-          margin-right: 190px;
+        /* border: 2px solid red; */
+        margin-left: -160px;
+          font-size: large;
+          top: 324px;
+          position: absolute;
+          /* width: 10%; */
+          
 }
 .username{
-        margin-left: 0px;
+
         /* border: 2px solid black; */
-        text-align: center;
+        text-align: left;
+        padding-left: 20px;
+        width: 10%;
 }
 .btn{
-          margin-top: 20px;
+          margin-top: 0;
           text-align: center;
-          margin-bottom: 30px;
+          margin-bottom: 0;
           /* width: 30%; */
+          /* border: 3px solid black; */
 }
 .btn-1{
           font-size: large;
           padding: 10px 20px;
           width: 50%;
 }
-
+.forget{
+        margin-top: 0;
+        /* border: 3px solid black; */
+        padding: 10px;
+        background: white;
+        border-bottom: 0;
+}
 .icon{
           transform: rotate(-180deg);
           margin-left: -40px;
@@ -88,21 +129,57 @@ form{
 }
 .note{
           padding: 25px 15px;
+          margin-top: 0;
+          background: white;
+}
+.note p{
+        margin-top: 40px;
+        font-size: large;
 }
 .content{
           padding: 10px;
-          display: flex;
+          display: none;
           flex-direction: column;
-          flex-wrap: wrap;
+          flex-wrap: no-wrap;
 }
 .content h4{
     display: none;
 }
-.content p{
+.content3 p{
           display: inline;
           margin: 10px;
-          font-size: 40px;
-          font-weight: 700;
+          font-size: 20px;
+          font-weight: 600;
+}
+.content3 li{
+        /* border: 3px solid black; */
+        font-size: 20px;
+        font-weight: 600;
+        /* word-spacing: 3px; */
+        list-style: square;
+        margin-left: 20px;
+        /* word-wrap: normal; */
+        word-wrap: none;
+        word-break: keep-all;
+}
+.content3{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: no-wrap;
+        border: 1px solid rgb(172, 169, 169);
+
+}
+.see{
+        display: flex;
+        /* align-items: center; */
+}
+.see li{
+        width: fit-content;
+        padding-top: 5px;
+}
+.see p{
+        margin-left: -10px;
 }
 #sub{
 
@@ -179,11 +256,15 @@ form{
 
 
 
-
+.foot{
+        display: flex;
+        
+}
 
 .foot-1, .foot-2{
           padding: 10px;
-          margin: 10px 0 20px 0;
+          margin: 10px 0 10px 0;
+          
           
 }
 .foot-1 ul{
@@ -198,6 +279,11 @@ form{
           width: 90%;
           display: flex;
           flex-wrap: wrap;
+}
+.foot-1 li, .foot-2 li{
+        border: none;
+        padding: 10px 0;
+        font-size: 18px;
 }
 
 @media only screen and (max-width: 400px){
