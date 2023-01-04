@@ -137,11 +137,11 @@ nav{
 }
 .mobile-links li:hover{
         color: black;
-        background: white;
+        background: #fcc60a;
 }
 .mobile-links li a:hover{
         color: white;
-        background: #d71e28;
+        background: #fcc60a;
 }
 
 .mobile-links li a{
