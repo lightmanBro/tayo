@@ -228,7 +228,7 @@ main{
 }
 .icon{
           /* border: 3px solid black; */
-          transform: rotate(-180deg);
+          /* transform: rotateX(-360deg); */
           margin-left: -70px;
           margin-bottom: 20px;
           cursor: pointer;
@@ -263,27 +263,42 @@ form input:focus::placeholder{
         font-size: 18px;
         /* font-style: italic; */
 }
-.check{
+/* .check{
           margin: 10px 0px 20px 60px;
           text-align: left;
-          /* border: 3px solid black; */
+          border: 3px solid black;
           display: flex;
-          /* flex-direction: row; */
+          flex-direction: row;
           justify-content: space-evenly;
           align-items: center;
           width: 40%;
           padding: 20px 20px 20px 10px;
+          padding: 0;
 }
-.check input{
-          margin-top: 66px;
-          margin-right: 230px;
-          position: absolute;
+.check-2 input{
+           align-self: center;
           height: 30px;
+          float: left;
+          margin-left: -290px;
+}
+.check-2{
+        display: flex;
+        justify-content: center;
+        border: 3px solid blue;
+        width: 100%;
+        padding: 0;
 }
 .username{
-          /* border: 3px solid black; */
-          margin-left: 10px;
-}
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid black;
+        font-size: 30px;
+        margin-left: -355px;
+        padding: 0;
+        width: 100%;
+        float: left;
+} */
 .verify input{
           margin-bottom: 70px;
           padding: 10px;
