@@ -33,6 +33,11 @@ main{
         text-align: center;
         margin-left: 100px;
 }
+.search {
+        width: 100%;
+        border-radius: 0;
+        /* border: 2px solid red; */
+}
 .verify{
 display: flex;
 flex-direction: column;
