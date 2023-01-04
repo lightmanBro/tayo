@@ -44,6 +44,7 @@ padding: 0;
 form{
           margin-left: 0;
 }
+
 .text-me h2{
           /* border: 3px solid black; */
           width: 100%;
@@ -169,7 +170,6 @@ form{
 
 
 
-
 .foot-1, .foot-2{
           padding: 10px;
           margin: 10px 0 20px 0;
@@ -199,7 +199,14 @@ padding: 0;
 .email-card .btn{
 padding-bottom: 20px;
 }
-
+.check{
+        /* border: 3px solid red; */
+        width: 100%;
+}
+.username{
+        border: 3px solid black;
+        width: 100%;
+}
 
 
 
