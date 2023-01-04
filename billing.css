@@ -54,6 +54,105 @@ nav{
 .cot li a img{
         
 }
+.mobile-burger{
+        /* border: 3px solid blue; */
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5px;
+     }
+.menu{
+        height: 3px;
+        background: white;
+        width: 100%;
+        position: relative;
+       
+     }
+     .menu::before{
+        content: "";
+        height: 3px;
+        background: rgba(248, 247, 247, 0.6);
+        width: 100%;
+        position: absolute;
+        transform: translateY(8px);
+     }
+     .menu::after{
+        content: "";
+        height: 3px;
+        background: rgba(248, 247, 247, 0.6);
+        width: 100%;
+        position: absolute;
+        transform: translateY(-8px);
+     }
+    .showburger .menu{
+     background: transparent;
+  }
+    .showburger .menu::before{
+     transform: rotate(-45deg);
+    }
+    .showburger .menu::after{
+     transform: rotate(45deg);
+    }
+    .mobile-links{
+        transform: translateX(100%);
+        /* border: 3px solid white; */
+        position: fixed;
+        right: 0;
+        top: 76px;
+        width: 110%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        transition: 0.9s ease-in-out;
+        /* padding: 10px 0; */
+}
+.show-mobile-links{
+        transform: translateX(90px);
+        position: absolute;
+}
+.mobile{
+        display: none;
+        /* border: 3px solid black; */
+}
+.mobile-links ul{
+        /* margin: 10px; */
+        list-style: none;
+        width: 78%;
+        /* border: 3px solid white; */
+        /* padding: 10px; */
+}
+.mobile-links li{
+        display: flex;
+        /* margin-left: 10px; */
+        /* padding: 5px 0; */
+        border-bottom: 0.3px solid black;
+        /* width: 100%; */
+        text-align: left;
+        font-size: 25px;
+        font-weight: 600;
+        background: white;
+        color: black;
+
+}
+.mobile-links li:hover{
+        color: black;
+        background: #fcc60a;
+}
+.mobile-links li a:hover{
+        color: white;
+        background: #fcc60a;
+}
+
+.mobile-links li a{
+        color: black;
+        text-decoration: none;
+        width: 100%;
+        /* border: 3px solid blue; */
+        padding: 14px 0;
+        margin-left: 15px;
+}
 .search  input{
           padding: 20px 5px;
           border-radius: 20px;
