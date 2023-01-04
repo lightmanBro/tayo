@@ -189,7 +189,22 @@ form{
           flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 400px){
+.email-card{
+padding: 0;
+}
+.email-card h1{
+        padding: 10px;
+}
+.email-card .btn{
+padding-bottom: 20px;
+}
 
+
+
+
+
+}
 
 
 
