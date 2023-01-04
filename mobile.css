@@ -200,11 +200,14 @@ padding: 0;
 padding-bottom: 20px;
 }
 .check{
-        /* border: 3px solid red; */
+        border: 3px solid red;
         width: 100%;
 }
+.check input{
+        margin-right: 210px;
+}
 .username{
-        border: 3px solid black;
+        /* border: 3px solid black; */
         width: 100%;
 }
 
