@@ -465,7 +465,7 @@ h1{
         margin-bottom: 30px;
 
 }
-#sub{
+#password{
 width: 50%;
 border: none;
 border-bottom: 1px solid black;
@@ -477,10 +477,32 @@ padding: 10px 0 0 0;
 margin-bottom: 40px;
 }
 
+#password:focus::placeholder{
+        transform: translateY(-10px);
+        font-size: 16px;
+
+}
+#sub{
+        width: 50%;
+        border: none;
+        border-bottom: 1px solid black;
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: larger;
+        outline: none;
+        padding: 10px 0 0 0;
+        margin-bottom: 40px; 
+}
 #sub:focus::placeholder{
         transform: translateY(-10px);
         font-size: 16px;
 
+}
+#eye{
+        /* border: 3px solid black; */
+        cursor: pointer;
+        font-size: larger;
+        margin-left: -20px;
 }
 h4{
         text-align: center;
