@@ -131,7 +131,7 @@ form{
           padding: 25px 15px;
           margin-top: 0;
           background: white;
-          border: none;
+          border-radius: 0;
 }
 .note p{
         margin-top: 40px;
