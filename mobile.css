@@ -189,7 +189,7 @@ form{
           font-size: large;
           /* border: 3px solid black; */
           width: 60%;
-          /* margin-right: 100px; */
+          margin-right: 60px;
 
 }
 #dob{
@@ -201,7 +201,7 @@ form{
 .icon{
           /* border: 3px solid black; */
           /* font-size: larger; */
-          margin-left: -40px;
+          margin-left: -70px;
 }
 .contents {
           padding: 20px;
