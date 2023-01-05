@@ -263,7 +263,12 @@ form{
         margin-top: 5px;
         font-size: 26px;
 }
-.fo
+.line{ 
+        height: 1px;
+        background: rgb(148, 143, 143);
+        width: 97%;
+        margin: 10px 0;
+}
 
 
 

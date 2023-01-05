@@ -68,7 +68,7 @@ nav{
      .menu::before{
         content: "";
         height: 2px;
-        background: rgba(248, 247, 247, 0.6);
+        background: white;
         width: 100%;
         position: absolute;
         transform: translateY(6px);
@@ -76,12 +76,12 @@ nav{
      .menu::after{
         content: "";
         height: 2px;
-        background: rgba(248, 247, 247, 0.6);
+        background: white;
         width: 100%;
         position: absolute;
         transform: translateY(-6px);
      }
-    .showburger .menu{
+    /* .showburger .menu{
      background: transparent;
   }
     .showburger .menu::before{
@@ -91,7 +91,7 @@ nav{
     .showburger .menu::after{
      transform: rotate(45deg);
      background: white;
-    }
+    } */
     .mobile-links{
         transform: translateX(100%);
         position: fixed;
@@ -395,6 +395,7 @@ footer{
 
 }
 .line{ 
+        display: none;
         height: 1px;
         background: rgb(148, 143, 143);
         width: 97%;
