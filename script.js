@@ -1,5 +1,8 @@
 
-
+window.addEventListener('DOMContentLoaded', function(){
+  const passwordInput = document.querySelector("#password")
+const eye = document.querySelector("#eye")
+})
 const passwordInput = document.querySelector("#password")
 const eye = document.querySelector("#eye")
 
@@ -23,9 +26,9 @@ function myFunc() {
         .replace(/-*$/g, '');
    }
 }
-function myFunction() {
-          document.getElementById("dob").value = "*-*-";
-        }
+// function myFunction() {
+//           document.getElementById("dob").value = "*-*-";
+//         }
        
         
 var burgerdiv= document.querySelector(".mobile-burger")

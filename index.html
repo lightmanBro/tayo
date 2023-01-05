@@ -9,6 +9,7 @@
           <link rel="stylesheet" href="./mobile.css">
           <title>Document</title>
 </head>
+
 <body>
          <header>
           <div class="cot">
@@ -177,9 +178,21 @@
       </p>
             
          </footer>
+         <script>
+var burgerdiv= document.querySelector(".mobile-burger")
+// console.log(burgerdiv)
+var mobilelinks = document.querySelector(".mobile-links")
 
 
+function giveit(){
+   burgerdiv.classList.toggle("showburger")
+   mobilelinks.classList.toggle("show-mobile-links")
 
-         <script src="script.js"></script>
+        }
+
+
+         </script>
+
+      <!-- <script src="./script.js"></script> -->
 </body>
 </html>

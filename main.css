@@ -65,7 +65,7 @@ nav{
         margin-right: 5px;
      }
 .menu{
-        height: 3px;
+        height: 2.5px;
         background: white;
         width: 100%;
         position: relative;
@@ -73,40 +73,43 @@ nav{
      }
      .menu::before{
         content: "";
-        height: 3px;
+        height: 2px;
         background: rgba(248, 247, 247, 0.6);
         width: 100%;
         position: absolute;
-        transform: translateY(8px);
+        transform: translateY(6px);
      }
      .menu::after{
         content: "";
-        height: 3px;
+        height: 2px;
         background: rgba(248, 247, 247, 0.6);
         width: 100%;
         position: absolute;
-        transform: translateY(-8px);
+        transform: translateY(-6px);
      }
     .showburger .menu{
      background: transparent;
   }
     .showburger .menu::before{
      transform: rotate(-45deg);
+     background: white;
     }
     .showburger .menu::after{
      transform: rotate(45deg);
+     background: white;
     }
     .mobile-links{
         transform: translateX(100%);
         /* border: 3px solid white; */
         position: fixed;
         right: 0;
-        top: 76px;
+        top: 53px;
         width: 110%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         transition: 0.9s ease-in-out;
+        background: rgb(255, 255, 255, 7);
         /* padding: 10px 0; */
 }
 .show-mobile-links{
@@ -232,6 +235,7 @@ main{
           margin-left: -70px;
           margin-bottom: 20px;
           cursor: pointer;
+
 }
 .text-me{
           display: flex;
