@@ -24,15 +24,15 @@ header{
           /* position: relative; */
 }
 nav{
-          border: 3px solid white ;
+          /* border: 3px solid white ; */
           display: flex;
           align-items: center;
           width: 45%;
           justify-content: right;
           /* margin-left: 20px; */
-          margin-right: 40px;
-          margin-top: 0;
-          margin-bottom: 0;
+          margin-right: 70px;
+          margin-top: 5px;
+          margin-bottom: 5px;
           padding: 0;
           
 
@@ -511,7 +511,6 @@ margin-bottom: 40px;
         cursor: pointer;
         font-size: larger;
         margin-left: -20px;
-        font-family: 'Merriweather', serif;
 }
 h4{
         text-align: center;
