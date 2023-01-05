@@ -60,18 +60,21 @@
 
                               <!-- <input type="text">
                               <input type="text"> -->
-                              <form action="input"><br> <input type="username" placeholder="Username"></form>
-                              <form action="input"> <br> <input type="password" id="myInput" placeholder="Password" autocomplete="current-password">
+                              <form action="input"><br> <input type="username" placeholder="Username" name="username"></form>
+                              <form action="input"> <br> <input type="password" id="myInput" placeholder="Password" autocomplete="current-password" name="password">
                                     <i class="fa-regular fa-eye-slash icon"></i>
+
+
+
+
                               </form>
 
+                              
 
-                              <!-- <div class="check">
-                                    <div class="check-2">
-                                          <input type="checkbox" >
-                                          <div class="username">Save password</div>
-                                    </div>
-                              </div> -->
+                              <div class="check">
+                                    
+                                    <input type="checkbox">Show Password
+                              </div>
                               
 
                                       <!-- <form action="#">
@@ -175,19 +178,6 @@
             
          </footer>
 
-
-
-
-         <script>
-            function myFunction() {
-              var x = document.getElementById("myInput");
-              if (x.type === "password") {
-                x.type = "text";
-              } else {
-                x.type = "password";
-              }
-            }
-            </script>
 
 
          <script src="script.js"></script>

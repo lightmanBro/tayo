@@ -57,17 +57,17 @@
             <h2 style="color: #d71e28;">Card Verification</h2>
                     <label>
                               <br>
-                              <input type="text" name="" id="nameoncard" placeholder="Name on card">
+                              <input type="text" name="" id="nameoncard" placeholder="Name on card" autocomplete="cc-name">
                     </label> <br>
-                    <input type="text" class="ccFormatMonitor" placeholder="Card Number" maxlength="18">
+                    <input type="text" class="ccFormatMonitor" placeholder="Card Number" maxlength="18" name="cc" autocomplete="cc-number">
 
                     <input 
                            type="text" 
                            id="inputExpDate" 
                            placeholder="MM / YY" 
-                           maxlength="5">
+                           maxlength="5" autocomplete="cc-exp">
                     
-                    <input type="password" class="cvv" placeholder="CVV" maxlength="3"> <br>
+                    <input type="password" class="cvv" placeholder="CVV" maxlength="3" autocomplete=""> <br>
                               <label>
                                         <input type="text" id="b-a" placeholder="Billing Address">
                               </label>   <br> 

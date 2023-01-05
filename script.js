@@ -1,13 +1,4 @@
-// const button = document.getElementById('btn')
 
-// document.addEventListener('DOMContentLoaded', function(){
-//           button.addEventListener('click', function(){
-//                     window.alert('button clicked')
-//           })
-// })
-
-
-// /
 
 const passwordInput = document.querySelector("#password")
 const eye = document.querySelector("#eye")
@@ -24,17 +15,9 @@ eye.addEventListener("click", function(){
 
 
 
-const togglePassword = document.querySelector("#togglePassword");
-const password = document.querySelector("#password");
 
-togglePassword.addEventListener("click", function () {
-    // toggle the type attribute
-    const type = password.getAttribute("type") === "password" ? "text" : "password";
-    password.setAttribute("type", type);
-    
-    // toggle the icon
-    this.classList.toggle("bi-eye");
-});
+
+// 
 
 
 
