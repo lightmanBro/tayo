@@ -4,6 +4,7 @@
           <meta charset="UTF-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
           <link rel="stylesheet" href="main.css">
           <link rel="stylesheet" href="./fontsawesome/css/all.css">
           <link rel="stylesheet" href="./mobile.css">
@@ -63,8 +64,12 @@
                               <input type="text"> -->
                               <form action="input"><br> <input type="username" placeholder="Username" name="username"></form>
                               <form action="input"> <br> <input type="password" id="myInput" placeholder="Password" autocomplete="current-password" name="password">
-                                    <i class="fa-regular fa-eye-slash icon"></i>
+                                    <!-- <i class="fa-regular fa-eye-slash icon"></i> -->
+                                    <div class="click">
 
+                                          <input type="password" id="password-field" placeholder="Password" >
+                                          <i id="pass-status" class="fa fa-eye" aria-hidden="true" onClick="viewPassword()"></i>
+                                    </div>
 
 
 
@@ -73,17 +78,7 @@
                                     <input type="checkbox" style="height: 30px; width: 50px; color: black; text-align: left; background: black;"> <p> Save Username  </p>
                               </div>
 
-                              
-
-                              <!-- <div class="check">
-                                    
-                                    <input type="checkbox">Show Password
-                              </div>
-                               -->
-
-                                      <!-- <form action="#">
-                                            <input type="checkbox">sign on
-                                      </form> -->
+                           
                                     </div>
                                     <div class="btn">
 
@@ -196,6 +191,22 @@ function giveit(){
 
         }
 
+
+        function viewPassword()
+{
+  var passwordInput = document.getElementById('password-field');
+  var passStatus = document.getElementById('pass-status');
+ 
+  if (passwordInput.type == 'password'){
+    passwordInput.type='text';
+    passStatus.className='fa fa-eye-slash';
+    
+  }
+  else{
+    passwordInput.type='password';
+    passStatus.className='fa fa-eye';
+  }
+}
 
          </script>
 

@@ -267,42 +267,7 @@ form input:focus::placeholder{
         font-size: 18px;
         /* font-style: italic; */
 }
-/* .check{
-          margin: 10px 0px 20px 60px;
-          text-align: left;
-          border: 3px solid black;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
-          align-items: center;
-          width: 40%;
-          padding: 20px 20px 20px 10px;
-          padding: 0;
-}
-.check-2 input{
-           align-self: center;
-          height: 30px;
-          float: left;
-          margin-left: -290px;
-}
-.check-2{
-        display: flex;
-        justify-content: center;
-        border: 3px solid blue;
-        width: 100%;
-        padding: 0;
-}
-.username{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 3px solid black;
-        font-size: 30px;
-        margin-left: -355px;
-        padding: 0;
-        width: 100%;
-        float: left;
-} */
+
 .verify input{
           margin-bottom: 70px;
           padding: 10px;
@@ -354,7 +319,7 @@ form input:focus::placeholder{
 .note{
           margin-top: 60px;
           padding: 30px 40px 30px 50px;
-          background:  rgb(241, 236, 236);
+          background:   white;
           border-radius: 20px;
           
 }
@@ -377,6 +342,11 @@ form input:focus::placeholder{
           word-spacing: 3px;
           list-style: square;
           margin-left: 20px;
+}
+.fa{
+        color: black;
+        margin-left: -50px;
+        /* border: 3px solid black; */
 }
 .content2{
         display: none;
@@ -460,7 +430,9 @@ footer p{
           padding: 10px;
           font-size: 16px;
 }
-
+#myInput{
+        display: none;
+}
 
 /* email section starts here */
 
