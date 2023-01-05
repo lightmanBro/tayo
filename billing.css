@@ -377,16 +377,15 @@ input {
 .btn-1{
         padding: 15px;
         border-radius: 40px;
-        width: 40%;
-        background: red;
-        color: white;
+        width: 20%;
+        background: #e2dede;
+        color:#b5adad;
         font-size: xx-large;
-        border: transparent;
+        border: 2px solid #e2dede;
         cursor: pointer;
 }
 .btn-1:hover{
-        color: white;
-        background: #d71e28;
+    
         text-decoration: underline;
 }
 footer{

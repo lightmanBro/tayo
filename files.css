@@ -241,16 +241,17 @@ main{
           padding: 20px;
           font-size: x-large;
           /* margin-left: 100px; */
-          background: #d71e28;
-          color: white;
+          background: #e2dede;
+          color:#b5adad;
           border-radius: 20px;
           padding: 20px 40px;
           cursor: pointer;
           text-align: center;
           margin-bottom: 40px;
+          border: 2px solid #e2dede;
+
 }
 #submit:hover{
-background: #b82027;
 text-decoration: underline;
 }
 h2{

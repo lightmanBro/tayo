@@ -293,19 +293,18 @@ form{
           margin-bottom: 30px;
 }
 .btn-1{
-          padding: 10px 25px;
+        padding: 15px;
           border-radius: 40px;
           width: 20%;
-          background: #d71e28;
-          color: white;
-          font-size: x-large;
-          border: transparent;
+          background: #e2dede;
+          color:#b5adad;
+          font-size: xx-large;
+          border: 2px solid #e2dede;
           cursor: pointer;
           margin-bottom: 30px;
 }
 .btn-1:hover{
-          color: white;
-          background: #a10f16;
+         
           text-decoration: underline;
 }
 .btn2{
