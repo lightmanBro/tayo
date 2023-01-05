@@ -1,208 +1,193 @@
 *{
-          margin: 0;
-          padding: 0;
+        margin: 0;
+        padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
 
 header{
-        margin: 0;
-        padding: 0;  
+      margin: 0;
+      padding: 0;  
 }
 
 .cot{
-          background: #d71e28;
-          border-bottom: 4px solid #ffcd41;
-          padding: 20px ;
-          height: px;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          font-family: Arial, Helvetica, sans-serif;
-          align-items: center;
-          /* width: 98%; */
-          position: relative;
+        background: #d71e28;
+        border-bottom: 6px solid #ffcd41;
+        padding:  0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: 'Merriweather', serif;
+        align-items: center;
 }
 nav{
-          /* border: 3px solid white ; */
-          display: flex;
-          align-items: center;
-          width: 60%;
-          justify-content: right;
-          margin-left: 20px;
-          
-
+        display: flex;
+        align-items: center;
+        width: 45%;
+        justify-content: right;
+        margin-right: 70px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 0;
 }
 .cot nav ul{
-          display: flex;
-          /* border: 3px solid black; */
-          width: 100%;
-          justify-content: space-between;
-          align-items: center;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
 }
 .cot nav ul li{
-          list-style: none;
-          color: white;
-          font-size: x-large;
+        list-style: none;
+        color: white;
+        font-size: 23px;
+        font-weight: 300;
+        
 
 }
 .cot li a{
-          text-decoration: none;
-          color: white;
-          font-family: Arial, Helvetica, sans-serif;
-
+        text-decoration: none;
+        color: white;
+        font-family: 'Merriweather', serif;
 }
 .mobile-burger{
-        /* border: 3px solid blue; */
-        width: 30px;
-        height: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 5px;
-     }
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 5px;
+   }
 .menu{
-        height: 2.5px;
-        background: white;
-        width: 100%;
-        position: relative;
-       
-     }
-     .menu::before{
-        content: "";
-        height: 2px;
-        background: rgba(248, 247, 247, 0.6);
-        width: 100%;
-        position: absolute;
-        transform: translateY(6px);
-     }
-     .menu::after{
-        content: "";
-        height: 2px;
-        background: rgba(248, 247, 247, 0.6);
-        width: 100%;
-        position: absolute;
-        transform: translateY(-6px);
-     }
-    .showburger .menu{
-     background: transparent;
+      height: 2.5px;
+      background: white;
+      width: 100%;
+      position: relative;
+     
+   }
+   .menu::before{
+      content: "";
+      height: 2px;
+      background: rgba(248, 247, 247, 0.6);
+      width: 100%;
+      position: absolute;
+      transform: translateY(6px);
+   }
+   .menu::after{
+      content: "";
+      height: 2px;
+      background: rgba(248, 247, 247, 0.6);
+      width: 100%;
+      position: absolute;
+      transform: translateY(-6px);
+   }
+  .showburger .menu{
+   background: transparent;
+}
+  .showburger .menu::before{
+   transform: rotate(-45deg);
+   background: white;
   }
-    .showburger .menu::before{
-     transform: rotate(-45deg);
-     background: white;
-    }
-    .showburger .menu::after{
-     transform: rotate(45deg);
-     background: white;
-
-    }
-    .mobile-links{
-        transform: translateX(100%);
-        /* border: 3px solid white; */
-        position: fixed;
-        right: -15px;
-        top: 55px;
-        width: 110%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        transition: 0.9s ease-in-out;
-        /* padding: 10px 0; */
+  .showburger .menu::after{
+   transform: rotate(45deg);
+   background: white;
+  }
+  .mobile-links{
+      transform: translateX(100%);
+      position: fixed;
+      right: 0;
+      top: 53px;
+      width: 110%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      transition: 0.9s ease-in-out;
+      background: rgb(255, 255, 255, 7);
 }
 .show-mobile-links{
-        transform: translateX(90px);
-        position: absolute;
+      transform: translateX(90px);
+      position: absolute;
 }
 .mobile{
-        display: none;
-        /* border: 3px solid black; */
+      display: none;
 }
 .mobile-links ul{
-        /* margin: 10px; */
-        list-style: none;
-        width: 78%;
-        /* border: 3px solid white; */
-        /* padding: 10px; */
+      list-style: none;
+      width: 78%;
 }
 .mobile-links li{
-        display: flex;
-        /* margin-left: 10px; */
-        /* padding: 5px 0; */
-        border-bottom: 0.3px solid black;
-        /* width: 100%; */
-        text-align: left;
-        font-size: 25px;
-        font-weight: 600;
-        background: white;
-        color: black;
+      display: flex;
+      border-bottom: 0.3px solid black;
+      text-align: left;
+      font-size: 25px;
+      font-weight: 600;
+      background: white;
+      color: black;
+      font-family: 'Merriweather', serif;
 
 }
 .mobile-links li:hover{
-        color: black;
-        background: #fcc60a;
+      color: black;
+      background: #fcc60a;
 }
 .mobile-links li a:hover{
-        color: white;
-        background: #fcc60a;
+      color: white;
+      background: #fcc60a;
 }
 
 .mobile-links li a{
-        color: black;
-        text-decoration: none;
-        width: 100%;
-        /* border: 3px solid blue; */
-        padding: 14px 0;
-        margin-left: 15px;
+      color: black;
+      text-decoration: none;
+      width: 100%;
+      padding: 14px 0;
+      margin-left: 15px;
+      font-family: 'Merriweather', serif;
 }
 .search  input{
-          padding: 20px 5px;
-          border-radius: 20px;
-          font-size: medium;
-          width: 70%;
-          background: white;
-          /* margin-left: 20px; */
-          float: left;
-          border: transparent;
-          border: none;
-          outline: none;
-          font-size: x-large;
+        padding: 10px 5px;
+        border-radius: 20px;
+        font-size: 20px;
+        width: 70%;
+        background: white;
+        float: left;
+        border: transparent;
+        outline: none;
+        font-weight: lighter;
+        font-family: 'Merriweather', serif;
 }
 .search button{
-          padding:  5px;
-          /* border-radius: 20px; */
-          width: 30%;
-          float: left;
-          border: transparent;
-          background: white;
-          cursor: pointer;
-          /* border: 3px solid black; */
+        width: 30%;
+        float: left;
+        border: transparent;
+        background: white;
+        cursor: pointer;
+        border-radius: 20px;
+
 
 }
 .search{
-          /* border: 3px solid green; */
-          width: 20%;
-          text-align: center;
-          padding: 0;
-          background: white;
-          border-radius: 10px;
-          display: flex;
-          align-items: center;
+        width: 20%;
+        text-align: center;
+        padding: 0;
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
 }
 .search i{
-          /* border: 3px solid rgb(19, 4, 4); */
-          font-size: 30px;
-          float: right;
-          margin-left: -100px;
-          color: rgb(85, 62, 62);
-          
-
-
+        font-size: 35px;
+        float: right;
+        margin-right: 15px;
+        color: rgb(114, 111, 111);         
 }
 .logo h1{
-font-size: 40px;
-/* font-weight: 400; */
+font-size: 35px;
+font-family: 'Merriweather', serif;
 text-transform: uppercase;
 color: white;
-line-height: 1.294;
+margin-top: 10px;
+margin-left: 120px;
+margin-bottom: 5px;
 }
 main{
           padding: 50px 150px;
