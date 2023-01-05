@@ -325,15 +325,14 @@ form input:focus::placeholder{
           padding: 15px;
           border-radius: 40px;
           width: 20%;
-          background: red;
-          color: white;
+          background: #e2dede;
+          color:#b5adad;
           font-size: xx-large;
-          border: transparent;
+          border: 2px solid #e2dede;
           cursor: pointer;
 }
 .btn-1:hover{
-          color: white;
-          background: #d71e28;
+        
           text-decoration: underline;
 }
 .forget{
@@ -427,13 +426,13 @@ footer{
           border-right: none;
 }
 .foot-2 li a{
-          font-size: 20px;
+          font-size: 16px;
           text-decoration: none;
           color: #000000;
 
 }
 .foot-1 ul li a{
-          font-size: 20px;
+          font-size: 16px;
           text-decoration: none;
           color: #000000;
 }
@@ -450,9 +449,16 @@ footer{
           padding: 2px 20px 2px 0;
 
 }
+.line{ 
+        height: 1px;
+        background: rgb(148, 143, 143);
+        width: 97%;
+        margin: 10px 0;
+        /* border: 2px solid black; */
+}
 footer p{
           padding: 10px;
-          font-size: 20px;
+          font-size: 16px;
 }
 
 
