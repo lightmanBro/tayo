@@ -208,6 +208,11 @@ main{
           background-attachment: fixed;
           
 }
+.verify{
+        background: white;
+        border-radius: 20px;
+        padding: 20px;
+}
 .verify2{
           margin-top: 20px;
           background: white;
