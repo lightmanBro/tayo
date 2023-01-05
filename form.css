@@ -188,7 +188,10 @@ color: white;
 margin-top: 10px;
 margin-left: 120px;
 margin-bottom: 5px;
-}in{
+}
+
+
+main{
           padding: 50px 150px;
           background: url(./tree-gdf8a951f3_1920\ \(1\).jpg);
           /* height: 400px; */
@@ -290,15 +293,16 @@ form{
         padding: 15px;
           border-radius: 40px;
           width: 20%;
-          background: #e2dede;
-          color:#b5adad;
+          background: red;
+          color: white;
           font-size: xx-large;
           border: 2px solid #e2dede;
           cursor: pointer;
           margin-bottom: 30px;
 }
 .btn-1:hover{
-         
+        transition: 1s ease-in-out;
+         background: #e2dede;
           text-decoration: underline;
 }
 .btn2{
