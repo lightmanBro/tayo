@@ -146,7 +146,8 @@ form{
 
 }
 .note{
-          padding: 25px 15px;
+        /* border: 3px solid black; */
+          padding: 15px 15px;
           margin-top: 0;
           background: white;
           border-radius: 0;
@@ -168,25 +169,27 @@ form{
           display: inline;
           margin: 10px;
           font-size: 18px;
-          font-weight: 300;
+          font-weight: 600;
 }
 .content3 li{
+        margin-top: 6px;
         /* border: 3px solid black; */
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 600;
         /* word-spacing: 3px; */
         list-style: square;
         margin-left: 20px;
         /* word-wrap: normal; */
         word-wrap: none;
-        word-break: keep-all;
+        /* word-break: keep-all; */
 }
 .content3{
-        padding: 10px;
+        padding: 10px 0;
         display: flex;
         flex-direction: column;
         flex-wrap: no-wrap;
         border: 1px solid rgb(172, 169, 169);
+        /* margin-bottom: 0; */
 
 }
 .see{
@@ -284,7 +287,14 @@ form{
 .verify2{
         display: none;
 }
-
+.i-d{
+        margin: 0;
+        /* border: 3px solid black; */
+}
+.verify h2{
+        margin-top: 5px;
+        font-size: 26px;
+}
 
 
 
@@ -294,6 +304,7 @@ form{
 
 footer{
         margin-top: 10px;
+        padding: 0 5px;
 }
 .foot{
         display: flex;
@@ -302,7 +313,8 @@ footer{
 }
 
 .foot-1, .foot-2{
-          padding: 5px 0;
+        /* border: 3px solid black; */
+          padding: 5px 5px;
           margin: 5px  0;
           
           
@@ -322,7 +334,7 @@ footer{
 }
 .foot-1 li, .foot-2 li{
         border: none;
-        padding: 5px 0;
+        padding: 3px 0;
         font-size: 18px;
 }
 .foot-2 li{
