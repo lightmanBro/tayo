@@ -301,6 +301,7 @@ form{
           font-size: x-large;
           border: transparent;
           cursor: pointer;
+          margin-bottom: 30px;
 }
 .btn-1:hover{
           color: white;
