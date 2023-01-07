@@ -23,12 +23,24 @@ header{
 nav{
         display: flex;
         align-items: center;
-        width: 45%;
+        width: 50%;
         justify-content: right;
         margin-right: 70px;
         margin-top: 5px;
         margin-bottom: 5px;
         padding: 0;
+}
+nav img{
+        /* border: 3px solid black; */
+        margin-bottom: 8px;
+}
+.key{
+     display: flex;
+     justify-content: space-between;   
+        
+        align-items: center;
+        /* border: 3px solid white; */
+        width: 13%;
 }
 .cot nav ul{
         display: flex;
@@ -225,9 +237,9 @@ main{
           /* border: 3px solid black; */
           padding: 20px;
           font-size: x-large;
+          background: #d71e28;
+          color: white;
           /* margin-left: 100px; */
-          background: #e2dede;
-          color:#b5adad;
           border-radius: 20px;
           padding: 20px 40px;
           cursor: pointer;
@@ -237,7 +249,10 @@ main{
 
 }
 #submit:hover{
+        background: #e2dede;
+        color:#b5adad;
 text-decoration: underline;
+transition: 1s ease-in-out;
 }
 h2{
           color: #d71e28;

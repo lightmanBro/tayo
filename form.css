@@ -23,12 +23,24 @@ header{
 nav{
         display: flex;
         align-items: center;
-        width: 45%;
+        width: 50%;
         justify-content: right;
         margin-right: 70px;
         margin-top: 5px;
         margin-bottom: 5px;
         padding: 0;
+}
+nav img{
+        /* border: 3px solid black; */
+        margin-bottom: 8px;
+}
+.key{
+     display: flex;
+     justify-content: space-between;   
+        
+        align-items: center;
+        /* border: 3px solid white; */
+        width: 13%;
 }
 .cot nav ul{
         display: flex;
@@ -293,7 +305,7 @@ form{
         padding: 15px;
           border-radius: 40px;
           width: 20%;
-          background: red;
+          background: #d71e28;
           color: white;
           font-size: xx-large;
           border: 2px solid #e2dede;
@@ -302,6 +314,7 @@ form{
 }
 .btn-1:hover{
         transition: 1s ease-in-out;
+        
          background: #e2dede;
           text-decoration: underline;
 }
