@@ -266,15 +266,17 @@ form input:focus::placeholder{
           padding: 15px;
           border-radius: 40px;
           width: 20%;
-          background: #e2dede;
-          color:#b5adad;
+          background: #d71e28;
+          border: 1px solid red;
+          color: white;
           font-size: xx-large;
-          border: 2px solid #e2dede;
           cursor: pointer;
           font-family: 'Merriweather', serif;
 }
 .btn-1:hover{
-        
+        border: 2px solid #e2dede;
+
+        background: #b5adad;
           text-decoration: underline;
 }
 .forget{

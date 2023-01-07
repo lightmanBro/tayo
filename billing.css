@@ -372,14 +372,15 @@ input {
         padding: 15px;
         border-radius: 40px;
         width: 30%;
-        background: #e2dede;
-        color:#b5adad;
+        color:white;
+        background: #d71e28;
+        border: 2px solid red;
         font-size: xx-large;
-        border: 2px solid #e2dede;
         cursor: pointer;
 }
 .btn-1:hover{
-    
+        background: #e2dede;
+        border: 2px solid #e2dede;
         text-decoration: underline;
 }
 footer{
