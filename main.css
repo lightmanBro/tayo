@@ -116,6 +116,7 @@ nav img{
         align-items: flex-start;
         transition: 0.9s ease-in-out;
         background: rgb(255, 255, 255, 7);
+        z-index: 8;
 }
 .show-mobile-links{
         transform: translateX(90px);
