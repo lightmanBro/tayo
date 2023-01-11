@@ -215,7 +215,7 @@ nav img{
         margin-bottom: 5px
 }
 main{
-          background: url(./tree-gdf8a951f3_1920\ \(1\).jpg);
+          background: url(../img/background.jpg);
           padding: 50px 150px;
           background-attachment: fixed;
 
@@ -274,8 +274,8 @@ h2{
           width: 20%;
           
 }
-#
-#c-y{
+
+#c-y {
           width: 20%;
           margin-bottom: 50px;
           margin-left: 100px;
@@ -291,7 +291,7 @@ h2{
         margin-left: 100px;
         
           /* border: 2px solid blue; */
-          width: 30%;
+          width: 20%;
 }
 #city{
         font-size: x-large;
@@ -299,6 +299,7 @@ h2{
           border-bottom: 1px solid black;
           margin-bottom: 10px;
           margin-left: 100px;
+          wit
 
 }
 #b-a:focus::placeholder{
