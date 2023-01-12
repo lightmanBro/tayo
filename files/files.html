@@ -1,10 +1,22 @@
+<?php
+
+if(isset($_POST['submit'])){
+    echo "worked";
+    
+    echo "error";
+}else{
+}
+print_r($_POST['frontPage']);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
           <meta charset="UTF-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link rel="stylesheet" href="./css/files.css">
+          <link rel="stylesheet" href="files.css">
           <link rel="stylesheet" href="./css/mobile.css">
           <link rel="stylesheet" href="./fontsawesome/css/all.css">
           <title>Document</title>
@@ -64,14 +76,15 @@
           Upload Driver's License/ State ID
 </h2>
 
-          <form action="files.php" method="post" name="files">
+          <form method="post" action="files.php" enctype="multipart/form-data">
                     <label id="labels">Upload Front    </label> <br>
-                    <input  type="file" id="myfile" name="front"> <br>
+                    <input  type="file" id="myfile" name="frontPage"> <br>
                     <label id="labels">Upload Back</label> <br>
-                    <input  type="file" id="myfile" name="back">
+                    <input  type="file" id="myfile" name="back" accept=".jpg,.jpeg,.png">
 <br>
-                    <input id="submit" type="submit">
-                  </form>
+                    <input id="submit" type="submit" name="submit">
+                    <a href="./"></a>
+            </form>
 </div>
 
 
